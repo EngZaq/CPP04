@@ -50,8 +50,5 @@ int main()
 	else
 		std::cout << "✗ Cat copy is a SHALLOW COPY (same Brain instance)" << std::endl;
 
-const Animal* i = new Cat();
-// const Animal* i = new Animal();
-
 	return 0;
 }

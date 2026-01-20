@@ -17,7 +17,7 @@ Animal::Animal(const Animal &other) : type(other.type)
 
 Animal& Animal::operator=(const Animal& other)
 {
-    std::cout << "animal assignemt pertator called" << std::endl;
+    std::cout << "animal assignment operator called" << std::endl;
     if(this != &other)
     {
         this->type = other.type;
